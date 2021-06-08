@@ -9,7 +9,7 @@ library(tidyr)
 library(maditr)
 library(multcomp)
 
-setwd(".")
+setwd("/home/alf/Scrivania/lav_ugolini/germination_ugolini/code")
 
 germination_data=read.xlsx("ugolini_data.xlsx",1)
 germination_table=read.xlsx("ugolini_data.xlsx",2)
@@ -51,20 +51,27 @@ model<- try(drm(propCum~timeBef , data=dataset, curveid = group,fct=LL2.3()))
 if ( i ==4) {model<- try(drm(propCum~timeAf , data=dataset, curveid = group,fct=LL2.3()))}
 
 png(filename = paste0(name_sp[i],"_model.png"))
-plot(model,log="",col = TRUE,legendPos=c(4,0.4),cex.legend = 0.9,xlab="Days",main=names(germination_data_ls)[i])
+plot(model,log="",col = TRUE,legendPos=c(4,0.6),cex.legend = 0.9,ylim=c(0,1),xlab="Days",main=names(germination_data_ls)[i])
 dev.off()
 
 if ( i ==3) {
   
   png(filename = paste0(name_sp[i],"_model.png"))
-  plot(model,log="",col = TRUE,legendPos=c(6,0.4),cex.legend = 0.9,xlab="Days",main=names(germination_data_ls)[i])
+  plot(model,log="",col = TRUE,legendPos=c(6,0.6),cex.legend = 0.9,ylim=c(0,1),xlab="Days",main=names(germination_data_ls)[i])
+  dev.off()
+}
+
+if ( i ==7) {
+  
+  png(filename = paste0(name_sp[i],"_model.png"))
+  plot(model,log="",col = TRUE,legendPos=c(2,0.9),cex.legend = 0.9,ylim=c(0,1),xlab="Days",main=names(germination_data_ls)[i])
   dev.off()
 }
 
 if ( i ==8) {
   
   png(filename = paste0(name_sp[i],"_model.png"))
-  plot(model,log="",col = TRUE,legendPos=c(2,0.4),cex.legend = 0.9,xlab="Days",main=names(germination_data_ls)[i])
+  plot(model,log="",col = TRUE,legendPos=c(2,0.9),cex.legend = 0.9,ylim=c(0,1.1),xlab="Days",main=names(germination_data_ls)[i])
   dev.off()
 }
 res_ed[[i]]=ED(model, c(10,50,90), interval = "fls") # ED estimates effective doses (ECp/EDp/ICp) for given reponse levels.
