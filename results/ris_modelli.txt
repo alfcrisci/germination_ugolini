@@ -1,0 +1,207 @@
+$`Amaranthus retroflexus`
+
+Model fitted: Log-logistic (log(ED50) as parameter) with lower limit at 0 (3 parms)
+
+Parameter estimates:
+
+            Estimate Std. Error t-value   p-value    
+b:100-AWE -24.302199  14.135166 -1.7193   0.08766 .  
+b:50-AWE  -11.374380   4.861141 -2.3399   0.02063 *  
+b:75-AWE   -6.569821   2.952340 -2.2253   0.02757 *  
+b:CTRL    -23.109746        NaN     NaN       NaN    
+d:100-AWE   0.269821   0.030045  8.9806 1.126e-15 ***
+d:50-AWE    0.341876   0.033270 10.2758 < 2.2e-16 ***
+d:75-AWE    0.311302   0.041007  7.5914 3.283e-12 ***
+d:CTRL      0.364977   0.018010 20.2654 < 2.2e-16 ***
+e:100-AWE   1.865283   0.042780 43.6017 < 2.2e-16 ***
+e:50-AWE    1.763324   0.043431 40.6004 < 2.2e-16 ***
+e:75-AWE    1.607362   0.084175 19.0954 < 2.2e-16 ***
+e:CTRL      1.329429        NaN     NaN       NaN    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error:
+
+ 0.08041873 (148 degrees of freedom)
+
+$`Chenopodium album`
+
+Model fitted: Log-logistic (log(ED50) as parameter) with lower limit at 0 (3 parms)
+
+Parameter estimates:
+
+            Estimate Std. Error  t-value   p-value    
+b:100-AWE -12.616999   4.720495  -2.6728 0.0079696 ** 
+b:50-AWE  -13.167537   4.906688  -2.6836 0.0077236 ** 
+b:75-AWE   -9.533208   2.621190  -3.6370 0.0003291 ***
+b:CTRL     -6.624849   1.977620  -3.3499 0.0009210 ***
+d:100-AWE   0.206424   0.024219   8.5234  9.58e-16 ***
+d:50-AWE    0.260012   0.016264  15.9866 < 2.2e-16 ***
+d:75-AWE    0.315637   0.022450  14.0596 < 2.2e-16 ***
+d:CTRL      0.269042   0.011732  22.9327 < 2.2e-16 ***
+e:100-AWE   2.509560   0.039892  62.9081 < 2.2e-16 ***
+e:50-AWE    2.422675   0.022664 106.8930 < 2.2e-16 ***
+e:75-AWE    2.431774   0.026629  91.3195 < 2.2e-16 ***
+e:CTRL      1.811748   0.044526  40.6893 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error:
+
+ 0.05071794 (276 degrees of freedom)
+
+$`Conyza canadensis`
+
+Model fitted: Log-logistic (log(ED50) as parameter) with lower limit at 0 (3 parms)
+
+Parameter estimates:
+
+            Estimate Std. Error  t-value   p-value    
+b:100-AWE  -6.773427   2.353735  -2.8777  0.004227 ** 
+b:50-AWE  -32.449931  11.848402  -2.7388  0.006451 ** 
+b:75-AWE  -32.517541  14.557871  -2.2337  0.026074 *  
+b:CTRL    -12.071453   1.444056  -8.3594 1.125e-15 ***
+d:100-AWE   0.348242        NaN      NaN       NaN    
+d:50-AWE    0.216221   0.013626  15.8680 < 2.2e-16 ***
+d:75-AWE    0.168313   0.022069   7.6267 1.878e-13 ***
+d:CTRL      0.526757   0.015097  34.8917 < 2.2e-16 ***
+e:100-AWE   3.500209        NaN      NaN       NaN    
+e:50-AWE    2.931425   0.013322 220.0381 < 2.2e-16 ***
+e:75-AWE    3.046866   0.017412 174.9823 < 2.2e-16 ***
+e:CTRL      2.748481   0.011800 232.9203 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error:
+
+ 0.05163131 (388 degrees of freedom)
+
+$`Lactuca sativa`
+
+Model fitted: Log-logistic (log(ED50) as parameter) with lower limit at 0 (3 parms)
+
+Parameter estimates:
+
+            Estimate Std. Error t-value   p-value    
+b:100-AWE  -6.691062   2.646347 -2.5284   0.01378 *  
+b:50-AWE  -15.911439  51.961763 -0.3062   0.76038    
+b:75-AWE   -6.138484   2.593871 -2.3665   0.02081 *  
+b:CTRL    -18.267103  46.080820 -0.3964   0.69304    
+d:100-AWE   0.969375   0.045057 21.5142 < 2.2e-16 ***
+d:50-AWE    0.975367   0.030203 32.2933 < 2.2e-16 ***
+d:75-AWE    0.866622   0.038581 22.4627 < 2.2e-16 ***
+d:CTRL      1.000520   0.028405 35.2231 < 2.2e-16 ***
+e:100-AWE   0.714985   0.036654 19.5063 < 2.2e-16 ***
+e:50-AWE    0.467950   0.736047  0.6358   0.52707    
+e:75-AWE    0.588181   0.054543 10.7837 2.253e-16 ***
+e:CTRL      0.350101   0.874682  0.4003   0.69022    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error:
+
+ 0.1050624 (68 degrees of freedom)
+
+$`Lolium perenne`
+
+Model fitted: Log-logistic (log(ED50) as parameter) with lower limit at 0 (3 parms)
+
+Parameter estimates:
+
+            Estimate Std. Error t-value   p-value    
+b:100-AWE -55.751565  49.583035 -1.1244 0.2624830    
+b:50-AWE  -37.110097        NaN     NaN       NaN    
+b:75-AWE   -8.019258   3.351781 -2.3925 0.0178632 *  
+b:CTRL     -8.869574   2.627511 -3.3757 0.0009194 ***
+d:100-AWE   0.432233   0.038601 11.1974 < 2.2e-16 ***
+d:50-AWE    0.589462   0.029733 19.8252 < 2.2e-16 ***
+d:75-AWE    0.519727   0.067279  7.7249 1.053e-12 ***
+d:CTRL      0.630621   0.052165 12.0890 < 2.2e-16 ***
+e:100-AWE   2.014471   0.059342 33.9471 < 2.2e-16 ***
+e:50-AWE    1.765487        NaN     NaN       NaN    
+e:75-AWE    1.820087   0.068284 26.6548 < 2.2e-16 ***
+e:CTRL      1.828491   0.042152 43.3790 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error:
+
+ 0.1195059 (164 degrees of freedom)
+
+$`Petroselinum crispum`
+
+Model fitted: Log-logistic (log(ED50) as parameter) with lower limit at 0 (3 parms)
+
+Parameter estimates:
+
+            Estimate Std. Error  t-value   p-value    
+b:100-AWE -18.217303   5.613427  -3.2453 0.0014590 ** 
+b:50-AWE   -7.623311   2.265753  -3.3646 0.0009827 ***
+b:75-AWE  -10.702164   3.481921  -3.0736 0.0025301 ** 
+b:CTRL    -44.000892  60.990594  -0.7214 0.4718102    
+d:100-AWE   0.793624   0.044884  17.6819 < 2.2e-16 ***
+d:50-AWE    0.739339   0.083855   8.8169 3.534e-15 ***
+d:75-AWE    0.731367   0.048772  14.9958 < 2.2e-16 ***
+d:CTRL      1.000030   0.026237  38.1158 < 2.2e-16 ***
+e:100-AWE   2.128485   0.018868 112.8110 < 2.2e-16 ***
+e:50-AWE    2.085161   0.050711  41.1185 < 2.2e-16 ***
+e:75-AWE    2.023250   0.029160  69.3844 < 2.2e-16 ***
+e:CTRL      1.734405   0.080428  21.5648 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error:
+
+ 0.1113015 (144 degrees of freedom)
+
+$`Pisum sativum`
+
+Model fitted: Log-logistic (log(ED50) as parameter) with lower limit at 0 (3 parms)
+
+Parameter estimates:
+
+           Estimate Std. Error t-value   p-value    
+b:100-AWE -7.367221   1.874154 -3.9310 0.0001443 ***
+b:50-AWE  -6.747945   1.500103 -4.4983 1.636e-05 ***
+b:75-AWE  -7.352983   2.642741 -2.7823 0.0063017 ** 
+b:CTRL    -6.650056   4.100177 -1.6219 0.1075408    
+d:100-AWE  0.897670   0.032026 28.0294 < 2.2e-16 ***
+d:50-AWE   0.915403   0.029175 31.3763 < 2.2e-16 ***
+d:75-AWE   0.593532   0.027920 21.2583 < 2.2e-16 ***
+d:CTRL     0.564479   0.028182 20.0296 < 2.2e-16 ***
+e:100-AWE  1.028509   0.033701 30.5184 < 2.2e-16 ***
+e:50-AWE   0.836131   0.039984 20.9115 < 2.2e-16 ***
+e:75-AWE   0.819845   0.059642 13.7462 < 2.2e-16 ***
+e:CTRL     0.698299   0.055840 12.5055 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error:
+
+ 0.1018262 (116 degrees of freedom)
+
+$`Solanum lycopersicum`
+
+Model fitted: Log-logistic (log(ED50) as parameter) with lower limit at 0 (3 parms)
+
+Parameter estimates:
+
+            Estimate Std. Error t-value   p-value    
+b:100-AWE -23.068042  10.390515 -2.2201 0.0283896 *  
+b:50-AWE   -6.999335   1.995516 -3.5075 0.0006481 ***
+b:75-AWE  -10.034432   1.798601 -5.5790 1.653e-07 ***
+b:CTRL    -17.135105  21.433007 -0.7995 0.4256790    
+d:100-AWE   0.920856   0.035722 25.7786 < 2.2e-16 ***
+d:50-AWE    0.719264   0.078937  9.1119 3.176e-15 ***
+d:75-AWE    0.942331   0.036804 25.6042 < 2.2e-16 ***
+d:CTRL      1.051274   0.021854 48.1041 < 2.2e-16 ***
+e:100-AWE   1.447627   0.029944 48.3440 < 2.2e-16 ***
+e:50-AWE    1.379072   0.055281 24.9464 < 2.2e-16 ***
+e:75-AWE    1.316173   0.020642 63.7615 < 2.2e-16 ***
+e:CTRL      1.055538   0.053505 19.7279 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error:
+
+ 0.07890388 (114 degrees of freedom)
