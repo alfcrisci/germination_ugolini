@@ -9,10 +9,10 @@ library(tidyr)
 library(maditr)
 library(multcomp)
 
-setwd("/home/alf/Scrivania/lav_ugolini/germination_ugolini/code")
+setwd(".")
 
-germination_data=read.xlsx("ugolini_data.xlsx",1)
-germination_table=read.xlsx("ugolini_data.xlsx",2)
+germination_data=read.xlsx("paper_data.xlsx",1)
+germination_table=read.xlsx("paper_data.xlsx",2)
  
 saveRDS(germination_data,"germination_data.rds")
 saveRDS(germination_table,"germination_table.rds")
@@ -84,5 +84,6 @@ res_summary[[i]]=summary(model) # showing a summmary of the model fit (including
 names(res_ed)=names(germination_data_ls)
 names(res_coef)=names(germination_data_ls)
 names(res_summary)=names(germination_data_ls)
+
 # references
 # https://www.statforbiology.com/seedgermination/germindices
