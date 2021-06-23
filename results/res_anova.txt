@@ -1,0 +1,18 @@
+Analysis of Deviance Table of GLM 
+
+Response: P_germ
+                  LR Chisq Df Pr(>Chisq)    
+Species             839.74  7  < 2.2e-16 ***
+traitment            37.31  3  3.962e-08 ***
+Species:traitment    63.32 21  3.969e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Response: len_roots
+                  LR Chisq Df Pr(>Chisq)    
+Species            1334.92  7  < 2.2e-16 ***
+traitment            98.88  3  < 2.2e-16 ***
+Species:traitment    51.14 21  0.0002529 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
